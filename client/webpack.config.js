@@ -22,7 +22,7 @@ module.exports = () => {
       // it basically copies it and brings it in the dist folder
       new HtmlWebpackPlugin({
         template: "./index.html",
-        title: "Webpack Plugin",
+        title: "Jate",
       }),
       // a way to generate the service worker with more control
       new InjectManifest({
@@ -37,6 +37,8 @@ module.exports = () => {
         description: "Keep track of your notes!",
         background_color: "#7eb4e2",
         theme_color: "#7eb4e2",
+        fingerprints: false, 
+        inject: true,
         start_url: "./",
         publicPath: "./",
         icons: [
