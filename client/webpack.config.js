@@ -32,12 +32,12 @@ module.exports = () => {
       // way of creating a manifest.
       // We need a manifest in order to install this locally
       new WebpackPwaManifest({
-        name: "Text Editor",
-        short_name: "Text Editor",
-        description: "Keep track of your notes!",
+        name: "Just Another Text Editor",
+        short_name: "J.A.T.E",
+        description: "Takes notes with JavaScript syntax highlighting!",
         background_color: "#7eb4e2",
         theme_color: "#7eb4e2",
-        fingerprints: false, 
+        fingerprints: false,
         inject: true,
         start_url: "./",
         publicPath: "./",

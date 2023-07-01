@@ -1,47 +1,50 @@
 # Text-Editor
 Progressive Web Applications (PWA)
-# 19 Progressive Web Applications (PWA): Text Editor
 
-## Your Task
+  ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
-As you have progressed through this course, you have put together a number of impressive projects that you can show off to potential employers. This project is no exception; in fact, it features some of the most impressive expressions of the concepts you have learned so far.
+  https://opensource.org/licenses/Apache-2.0
 
-Your task is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
+  GitHub: https://github.com/EFP18/Text-Editor
+  Deployed on Heroku:
 
-To build this text editor, you will start with an existing application and implement methods for getting and storing data to an IndexedDB database. You will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla.
+
+  ## Table of Contents
+
+  * [Description](#description)
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [License](#license)
+  * [Tests](#tests)
+  * [Questions](#questions)
+
+
+  ### Description
+  This is a text editor that runs in the browser, but also offline. It is perfect for those who wish to access their notes anytime, anywhere, without worrying about not having service to retrieve them. It achieves this by using a few different technologies, such as offline functionality. 
+
+  ### Installation
+  To use the Text Editor, one need only follow the link that will direct them to the website. Alternatively, one can clone this repository on their local machine, type `npm i`, `npm build`, and `npm run dev` to get the repository running, and proceed by going to the following address: `localhost:3000. In that way, a fellow coder can also make updates and improvements to the website and the code, if they wish to. 
+
+  ### Usage
+  To give its users a platform where they can write notes, thoughts and more, where they will always be able to access them, even when they're not connected to the Internet. It uses the IndexedDB API which features various useful methods to store and retrieve data, quickly and easily.  
+
+  ### License
+  Apache License 2.0
+  
+
+  ### Tests
+  Using the DevTools on Google Chrome. 
+
+  ### Questions
+  * GitHub: http://github.com/https://github.com/EFP18
+  * Email: ester.p18@hotmail.com
+  
+
+
 
 You will deploy this full-stack application to Heroku using the [Heroku Deployment Guide on The Full-Stack Blog](https://coding-boot-camp.github.io/full-stack/heroku/heroku-deployment-guide).
 
-## User Story
 
-```md
-AS A developer
-I WANT to create notes or code snippets with or without an internet connection
-SO THAT I can reliably retrieve them for later use
-```
-
-## Acceptance Criteria
-
-```md
-GIVEN a text editor web application
-WHEN I open my application in my editor
-THEN I should see a client server folder structure
-WHEN I run `npm run start` from the root directory
-THEN I find that my application should start up the backend and serve the client
-WHEN I run the text editor application from my terminal
-THEN I find that my JavaScript files have been bundled using webpack
-WHEN I run my webpack plugins
-THEN I find that I have a generated HTML file, service worker, and a manifest file
-WHEN I use next-gen JavaScript in my application
-THEN I find that the text editor still functions in the browser without errors
-WHEN I open the text editor
-THEN I find that IndexedDB has immediately created a database storage
-WHEN I enter content and subsequently click off of the DOM window
-THEN I find that the content in the text editor has been saved with IndexedDB
-WHEN I reopen the text editor after closing it
-THEN I find that the content in the text editor has been retrieved from our IndexedDB
-WHEN I click on the Install button
-THEN I download my web application as an icon on my desktop
 WHEN I load my web application
 THEN I should have a registered service worker using workbox
 WHEN I register a service worker
@@ -70,15 +73,6 @@ The following image shows the application's IndexedDB storage:
 
 
 
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * Uses IndexedDB to create an object store and includes both GET and PUT methods
-
-  * The application works without an internet connection
-
-  * Automatically saves content inside the text editor when the DOM window is unfocused
 
   * Bundled with webpack
 
@@ -94,19 +88,6 @@ The following image shows the application's IndexedDB storage:
 
 * Application deployed to Heroku at live URL with build scripts
 
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
 
 
 
@@ -116,5 +97,4 @@ You are required to submit the following for review:
 
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
