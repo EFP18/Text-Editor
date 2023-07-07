@@ -10,6 +10,9 @@ GitHub: https://github.com/EFP18/Text-Editor
 
 Deployed on Heroku: https://jate-texteditor-efp18-ed59a4bb5c66.herokuapp.com/
 
+![image](https://github.com/EFP18/Text-Editor/assets/125209506/31e0ed45-25bd-4f7b-ac13-e9600e693022)
+
+
 ## Table of Contents
 
 - [Description](#description)
